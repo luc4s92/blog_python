@@ -4,3 +4,7 @@ from django.views import View
 
 def index(request):
     return render(request, "index.html")
+
+
+def prueba(request):
+    return render(request, "test.html")
